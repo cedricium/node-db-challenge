@@ -9,5 +9,12 @@
     "express": "^4.17.1",
     "knex": "^0.19.1",
     "sqlite3": "^4.1.0"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
